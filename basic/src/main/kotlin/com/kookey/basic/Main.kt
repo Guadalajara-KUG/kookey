@@ -1,0 +1,10 @@
+package com.kookey.basic
+
+fun main() {
+    println("Hello")
+}
+
+fun add(
+    x: Int,
+    y: Int,
+): Int = x + y
