@@ -1,7 +1,8 @@
 plugins {
-    kotlin("jvm")
+    alias(libs.plugins.kotlin.jvm)
+    application
 }
 
-repositories {
-    mavenCentral()
+application {
+    mainClass = "com.kookey.basic.MainKt"
 }
