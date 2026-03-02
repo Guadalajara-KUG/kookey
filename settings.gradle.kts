@@ -13,4 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
+include(":kookey:annotations")
+include(":kookey:ksp-processor")
 include(":basic")
